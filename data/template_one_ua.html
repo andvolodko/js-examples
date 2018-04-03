@@ -1,0 +1,33 @@
+<div id="clock_place" class="clock">00:00:00</div>
+<input type="hidden" name="offset" value="{$offset}">
+
+<table>
+<thead>
+<tr>
+<th> Місцезнаходження </th>
+<th> Країна </th>
+<th> Код країни </th>
+<th> Часовий пояс </th>
+<th> Назва зони </th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+    <td>{$location}</td><td>{$country}</td><td>{$cc}</td><td>{$offset}</td><td>{$zoneName}</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+{$blockquote}
+</blockquote>
+
+[do_widget id=enhancedtextwidget-3]<p>{$location_text}. Час вашого пристрою має бути встановлений правильно. Додаткова інформація про часовий пояс включена.
+Якщо вам потрібна додаткова функціональність - будь ласка, повідомте нас - скористайтеся кнопкою "Зворотний зв'язок" справа.
+Подобається? Поділіться з друзями, на лівій стороні (нижній для мобільних пристроїв) сторінки є спеціальний віджет.
+</p>
+
+<strong><i>Мітки</i></strong>: {$tags}
+
+<p><a href="/uk/svitovyy-chas/" title="Міжнародні часові пояси">Повернутися до глобального часу</a></p>

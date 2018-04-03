@@ -1,0 +1,34 @@
+<div id="clock_place" class="clock">00:00:00</div>
+<input type="hidden" name="offset" value="{$offset}">
+
+<table>
+<thead>
+<tr>
+	<th>Location</th>
+	<th>Country</th>
+	<th>Country Code</th>
+	<th>Time Zone</th>
+	<th>Zone Name</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+    <td>{$location}</td><td>{$country}</td><td>{$cc}</td><td>{$offset}</td><td>{$zoneName}</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+{$blockquote}
+</blockquote>
+
+[do_widget id=enhancedtextwidget-3]<p>This page shows current local time in {$location}. Your device time must be set correctly. Additional info about time zone included.
+If you need an advanced functionality - please let us know - use "Feedback" button at the right.
+Like it ? Share with friends, there is special widget on the left side (bottom for mobile) of the page.
+</p>
+
+<strong><i>Tags</i></strong>: {$tags}
+
+<p><a href="/world-time/" title="International time zones">Back to global times</a></p>
+
